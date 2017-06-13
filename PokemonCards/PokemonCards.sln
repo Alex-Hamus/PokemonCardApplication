@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonCards", "PokemonCards\PokemonCards.csproj", "{9B32FDCF-9A72-45ED-83EA-2FD1FEA8860B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonCards.Tests", "PokemonCards.Tests\PokemonCards.Tests.csproj", "{19E13459-330B-49C1-86AF-72955B14BA02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{640DB3E6-F7B1-457B-99F1-703AD883F19F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{C67F89DD-EB7E-4EF4-AECF-3F19A759AB21}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{E352E684-74B1-4AE1-A4FB-40676EB5693F}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\PokemonCards.json = PublishScripts\Templates\PokemonCards.json
+		PublishScripts\Templates\PokemonCards.param.dev.json = PublishScripts\Templates\PokemonCards.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B32FDCF-9A72-45ED-83EA-2FD1FEA8860B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B32FDCF-9A72-45ED-83EA-2FD1FEA8860B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B32FDCF-9A72-45ED-83EA-2FD1FEA8860B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B32FDCF-9A72-45ED-83EA-2FD1FEA8860B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E13459-330B-49C1-86AF-72955B14BA02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E13459-330B-49C1-86AF-72955B14BA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E13459-330B-49C1-86AF-72955B14BA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E13459-330B-49C1-86AF-72955B14BA02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C67F89DD-EB7E-4EF4-AECF-3F19A759AB21} = {640DB3E6-F7B1-457B-99F1-703AD883F19F}
+		{E352E684-74B1-4AE1-A4FB-40676EB5693F} = {640DB3E6-F7B1-457B-99F1-703AD883F19F}
+	EndGlobalSection
+EndGlobal

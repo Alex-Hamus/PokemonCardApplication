@@ -1,0 +1,32 @@
+{
+  "siteName": {
+    "value": "PokemonCards"
+  },
+  "hostingPlanName": {
+    "value": "CS429Project"
+  },
+  "siteLocation": {
+    "value": "Central US"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "serverName": {
+    "value": "pokemoncards"
+  },
+  "serverLocation": {
+    "value": "East US"
+  },
+  "administratorLogin": {
+    "value": "Alex"
+  },
+  "administratorLoginPassword": {
+    "value": "password@1"
+  },
+  "databaseName": {
+    "value": "PokemonCards_db"
+  }
+}
